@@ -1,6 +1,6 @@
 #!/bin/sh
 #Script Made By : Aman Sharma (amanharitsh123@gmail.com)
-
+#Reference : https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
 if [ "$(id -u)" -ne "0" ] ; then
   echo "error: this script must be executed with root privileges!"
   exit 1
